@@ -8,11 +8,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Material App',
       initialRoute: 'home',
       routes: {
-        'home':(_)=> HomeScreen(),
-        'mapa':(_)=> MapaScreen(),
+        'home': (_) => HomeScreen(),
+        'mapa': (_) => MapaScreen(),
       },
     );
   }
