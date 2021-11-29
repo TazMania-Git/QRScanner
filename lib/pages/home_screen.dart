@@ -34,9 +34,11 @@ class _HomePageBody extends StatelessWidget {
 
     final currentIndex = uiprovider.selectedMenuOpt;
 
-    final tempScan = new ScanModel(id: 1, tipo: 'test', valor: 'http://test');
-
-    DBProvider.db.nuevoScan(tempScan);
+    // final tempScan = ScanModel(id: 3, tipo: 'tipo', valor: 'http://google.com');
+    // DBProvider.db.nuevoScan(tempScan);
+    // DBProvider.db.getAllScans().then((value) => print(value));
+    // DBProvider.db.deleteAll().then((value) => print(value));
+    // DBProvider.db.deleteScanId(1).then((value) => print(value));
 
     switch (currentIndex) {
       case 0:
